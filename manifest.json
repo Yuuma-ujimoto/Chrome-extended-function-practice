@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name":"test",
+  "short_name":"test",
+  "version":"1.0.0.0",
+  "description": "拡張機能test",
+  "browser_action":{
+    "defautl_icon":{
+      "16":"icon16.png"
+    },
+    "default_popup":"test.html"
+  },
+  "permissions": ["tabs"]
+}
